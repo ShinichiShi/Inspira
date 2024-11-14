@@ -26,7 +26,7 @@ public class About extends JFrame implements ActionListener {
         add(titleLabel);
 
         // Project Information
-        projectInfo = "The Virtual Art Gallery Project aims to create an immersive and user-friendly platform "
+        projectInfo = "The Inspira: Digital Art Gallery Project aims to create an immersive and user-friendly platform "
                 + "for emerging artists to showcase their artwork and connect with art enthusiasts.\n\n"
                 + "Features of the Project:\n"
                 + "• Artist profile and portfolio management\n"
@@ -71,7 +71,7 @@ public class About extends JFrame implements ActionListener {
 
         // Frame settings
         setBounds(600, 220, 500, 500);
-        setTitle("About Virtual Art Gallery");
+        setTitle("About Inspira: Digital Art Gallery");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
